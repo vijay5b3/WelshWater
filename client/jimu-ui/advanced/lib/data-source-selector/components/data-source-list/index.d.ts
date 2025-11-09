@@ -1,0 +1,32 @@
+/** @jsx jsx */
+import { React, type IMDataSourceJson, ReactRedux } from 'jimu-core';
+export declare const DataSourceList: import("@emotion/styled").StyledComponent<{
+    widgetId?: string;
+    useDataSources?: Readonly<import("seamless-immutable").ImmutableArray.Remaining<import("jimu-core").UseDataSource>> & import("seamless-immutable").ImmutableArray.Additions<import("jimu-core").UseDataSource> & import("seamless-immutable").ImmutableArray.Overrides<import("jimu-core").UseDataSource> & import("seamless-immutable").ImmutableArray.ReadOnlyIndexer<import("jimu-core").UseDataSource>;
+    onChange?: (useDataSources: import("jimu-core").UseDataSource[]) => void;
+    className?: string;
+    forwardedRef?: React.Ref<any>;
+    hideHeader?: boolean;
+    isMultiple?: boolean;
+    types: Readonly<import("seamless-immutable").ImmutableArray.Remaining<import("jimu-core").DataSourceTypes>> & import("seamless-immutable").ImmutableArray.Additions<import("jimu-core").DataSourceTypes> & import("seamless-immutable").ImmutableArray.Overrides<import("jimu-core").DataSourceTypes> & import("seamless-immutable").ImmutableArray.ReadOnlyIndexer<import("jimu-core").DataSourceTypes>;
+    fromRootDsIds?: Readonly<import("seamless-immutable").ImmutableArray.Remaining<string>> & import("seamless-immutable").ImmutableArray.Additions<string> & import("seamless-immutable").ImmutableArray.Overrides<string> & import("seamless-immutable").ImmutableArray.ReadOnlyIndexer<string>;
+    fromDsIds?: Readonly<import("seamless-immutable").ImmutableArray.Remaining<string>> & import("seamless-immutable").ImmutableArray.Additions<string> & import("seamless-immutable").ImmutableArray.Overrides<string> & import("seamless-immutable").ImmutableArray.ReadOnlyIndexer<string>;
+    isDataSourceInited: boolean;
+    onCloseClick?: () => void;
+    changeInitStatus?: (isInitialized: boolean) => void;
+    disableSelection?: boolean;
+    disableRemove?: boolean;
+    hideDs?: (dsJson: IMDataSourceJson) => boolean;
+    hideTypeDropdown?: boolean;
+    hideAllOptionOfTypeDropdown?: boolean;
+    hideAddDataButton?: boolean;
+    disableAddData?: boolean;
+    hideTabs?: Readonly<import("seamless-immutable").ImmutableArray.Remaining<"ADDED" | "OUTPUT">> & import("seamless-immutable").ImmutableArray.Additions<"ADDED" | "OUTPUT"> & import("seamless-immutable").ImmutableArray.Overrides<"ADDED" | "OUTPUT"> & import("seamless-immutable").ImmutableArray.ReadOnlyIndexer<"ADDED" | "OUTPUT">;
+    isBatched?: boolean;
+    enableToSelectOutputDsFromSelf?: boolean;
+    showQueriableDataSourceWithoutFields?: boolean;
+    onNewDataAdded?: (useDataSources: import("jimu-core").UseDataSource[]) => void;
+    onClickDisabledDsItem?: () => void;
+    context?: React.Context<ReactRedux.ReactReduxContextValue<any, import("redux").UnknownAction>>;
+    store?: import("redux").Store;
+}, {}, {}>;

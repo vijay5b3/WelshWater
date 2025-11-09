@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+client/dist/
+server/dist/
+server/public/apps/*
+!server/public/apps/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# User data
+server/public/user_resources/*
+!server/public/user_resources/.gitkeep
+
+# SSL certificates (keep default, but ignore custom ones)
+server/cert/*.pem
+server/cert/*.key
+server/cert/*.crt
+!server/cert/server.cert
+!server/cert/server.key
+
+# Widget builds
+client/your-extensions/widgets/*/dist/
+
+# Package locks (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+
+# ArcGIS Experience Builder specific
+client/.cache/

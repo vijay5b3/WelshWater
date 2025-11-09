@@ -1,0 +1,22 @@
+{
+  "name": "chatbot",
+  "label": "Map Chatbot",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.18.0",
+  "author": "Custom",
+  "description": "A chatbot widget that can control map zoom operations through natural language commands",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "supportInlineEditing": false,
+    "canCreateMapView": false
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 350,
+    "height": 500
+  }
+}

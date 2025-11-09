@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Robot Head -->
+  <rect x="10" y="14" width="28" height="24" rx="4" fill="#0079c1"/>
+  
+  <!-- Eyes -->
+  <circle cx="18" cy="24" r="3" fill="#ffffff"/>
+  <circle cx="30" cy="24" r="3" fill="#ffffff"/>
+  
+  <!-- Mouth -->
+  <path d="M 16 32 Q 24 36 32 32" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none"/>
+  
+  <!-- Antenna -->
+  <line x1="24" y1="14" x2="24" y2="8" stroke="#0079c1" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="24" cy="6" r="2" fill="#0079c1"/>
+  
+  <!-- Message bubble -->
+  <path d="M 36 16 L 42 14 L 42 20 Z" fill="#0079c1"/>
+</svg>
